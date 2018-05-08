@@ -1,4 +1,4 @@
-##READNE - rpistatus##
+## READNE - rpistatus ##
 
 This is a bash script that iterates through rpi01 - rpi18 and ping each
 one to check if a host is up or down. There are two use cases:
