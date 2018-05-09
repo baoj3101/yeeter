@@ -1,13 +1,13 @@
 ## README - rpistatus ##
 
-This is a bash script that iterates through rpi01 - rpi18 and ping each
-one to check if a host is up or down. There are two use cases:
+This is a bash script that iterates through rpi01 - rpi18 in the classroom and pings each
+one to check if a host is up or down, using ping command. There are two use cases:
 
-To go through all hosts: $ rpistatus
+- To go through all hosts: $ rpistatus
 
-To go through selected hosts: $ rpistatus host1 host2 ...
+- To go through selected hosts: $ rpistatus host1 host2 ...
 
-The output is on screen and display the status of each host:
+The output is on screen and displays the status of each raspberry pi host:
 
 rpi01 is alive
 
@@ -15,7 +15,7 @@ rpi02 is dead
 
 ...
 
-The script uses the ping command with -c 1 -W 1 options
+The script uses the ping command with -c 1 -W 1 options (man command to see those two options)
 
 -W 1: timeout after 1 second if no response
 
