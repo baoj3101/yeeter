@@ -1,5 +1,5 @@
 ## README - rpistatus ##
-
+#jfwerkn
 This is a bash script that iterates through rpi01 - rpi18 in the classroom and pings each
 one to check if a host is up or down, using ping command. There are two use cases:
 
